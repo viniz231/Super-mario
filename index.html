@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Super Mario Love Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-board">
+        <img src="Fotoss/clouds.png" class="clouds">
+        <img src="Fotoss/mario.gif" class="mario"> 
+        <img src="Fotoss/pipe.png" class="pipe">
+        
+        <div class="score">Corações: <span id="points">0</span>/5</div>
+        
+        <div id="message" class="hidden">
+            <h1>❤️ VOCÊ VENCEU MEU CORAÇÃO! ❤️</h1>
+            <p>Assim como o Mario enfrenta perigos para salvar a princesa...</p>
+            <p>Eu enfrentaria qualquer fase para estar com você.</p>
+            <h2 style="color: #d81b60; margin-top: 20px;">Quer namorar comigo?</h2>
+            <div class="buttons">
+                <button class="btn-sim" onclick="alert('Eba! ❤️ Eu te amo!')">SIM!</button>
+                <button class="btn-nao" id="btnNao">NÃO</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
